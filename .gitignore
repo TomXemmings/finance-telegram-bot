@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.sqlite3
+*.db
+*.db-journal
+
+# JavaScript & Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python specific packages
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+venv/
+.env
+
+# Pycharm IDE specific
+.idea/
+*.iml
+*.iws
+.idea/*
+.idea/workspace.xml
+
+# Database & Local files
+database.db
+data.db
+*.json
+storage-language-84a78b1b827f.json
+
+# HTML/CSS/JS build artifacts
+*.log
+
+# Other
+logs/
+*.log
+*.bak
+*.swp
+*.swo
+*.swn
+*.sml
+
+# Project specific
+storage-language-*.json

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.date-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #6c757d;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.date-input:valid + .date-placeholder,
+.date-input:focus + .date-placeholder {
+    opacity: 0;
+}
